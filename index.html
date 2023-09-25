@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee app</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body class="content" >
+    <div class="background">
+        <img src="https://thumbs.dreamstime.com/z/coffee-cup-cup-coffee-w-clipping-path-7282862.jpg?w=2048" alt="">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <h1>Coffee Order App</h1>
+    
+        <h2>Menu</h2>
+        <ul class="coffee-menu">
+            <li class="coffee-item" onclick="addToOrder('Espresso')">Espresso - $2.00</li>
+            <li class="coffee-item" onclick="addToOrder('Cappuccino')">Cappuccino - $3.50</li>
+            <li class="coffee-item" onclick="addToOrder('Latte')">Latte - $3.00</li>
+            <li class="coffee-item" onclick="addToOrder('Mocha')">Mocha - $4.00</li>
+        </ul>
+
+        <h2>Your Order</h2>
+        <ul id="order-list">
+        </ul>
+
+        <p>Total: $<span id="total">0.00</span></p>
+
+        <button onclick="placeOrder()">Place Order</button>
+    </div>
+
+
+
+
+   
+
+    
+
+
+
+
+
+
+      
+ <script src="./index.js"></script> 
+
+ 
+</body>
+</html>
